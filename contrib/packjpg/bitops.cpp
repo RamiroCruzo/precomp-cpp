@@ -6,6 +6,7 @@ reading and writing of arrays
 #include <stdlib.h>
 #include <string.h>
 #include <fcntl.h>
+#include <io.h> //Won't compile without this, setmode is IO.h's function
 #include "bitops.h"
 
 #define BUFFER_SIZE 1024 * 1024
